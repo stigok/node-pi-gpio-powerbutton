@@ -1,0 +1,12 @@
+[Unit]
+Description=Raspberry Pi Power Button
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/projects/node-gpio-powerbutton
+ExecStart=/home/pi/.nvm/versions/node/v6.2.0/bin/node /home/pi/projects/node-gpio-powerbutton/index.js
+#Restart=always
+Environment=PATH=/home/pi/.nvm/versions/node/v6.2.0/bin
+
+[Install]
+WantedBy=multi-user.target
