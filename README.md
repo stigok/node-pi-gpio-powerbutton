@@ -1,9 +1,10 @@
-Derived from the excellent work of [@fivdi's gpio-button](https://github.com/fivdi/gpio-button). Read the readme there to set up device tree overlay in order to get this package working.
+Derived from the excellent work of [@fivdi's gpio-button][gpio-button]. Read the readme there to set up device tree overlay in order to get this package working.
 
-# Installation
+# Get started
 
-- clone repo
+- Clone repo
 - `npm install`
+- [Set up device tree overlay][gpio-button] and reboot
 
 ## Start on boot
 
@@ -28,3 +29,5 @@ Enable service
 Try to push the button
 
 <kbd>O</kbd>
+
+[gpio-button]: https://github.com/fivdi/gpio-button
