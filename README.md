@@ -27,4 +27,4 @@ Enable service
 
 Try to push the button
 
-    <kbd>O</kbd>
+<kbd>O</kbd>
