@@ -1,0 +1,32 @@
+{
+  "name": "node-pi-gpio-powerbutton",
+  "version": "0.0.1",
+  "description": "Derived from the excellent work of [@fivdi's gpio-button](https://github.com/fivdi/gpio-button). Read the readme there to set up device tree overlay in order to get this package working.",
+  "main": "index.js",
+  "dependencies": {
+    "gpio-button": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stigok/node-pi-gpio-powerbutton.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "power",
+    "button",
+    "gpio",
+    "poweroff"
+  ],
+  "author": "stigok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stigok/node-pi-gpio-powerbutton/issues"
+  },
+  "homepage": "https://github.com/stigok/node-pi-gpio-powerbutton#readme",
+  "private": true
+}
